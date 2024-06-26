@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 
-os.environ['GOOGLE_API_KEY']='AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho'
+os.environ['GOOGLE_API_KEY']='Your Google Api key'
 # Function to extract text from PDF files
 def get_pdf_text(pdf_docs):
     text = ""
